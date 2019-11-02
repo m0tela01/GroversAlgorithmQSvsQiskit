@@ -44,12 +44,11 @@ namespace qsBell.Bell
             Console.WriteLine("Grover 4 Qubit");
             using (var qsim = new QuantumSimulator())
             {
-                var res = Grover4Qubit.Run(qsim, shots, initialState).Run;
+                var res = Grover4Qubit.Run(qsim, shots, initialState).Result;
                 var (num_zeros_q0, num_zeros_q1, num_zeros_q2, num_zeros_q3, num_ones_q0, num_ones_q1, num_ones_q2, num_ones_q3, agree_q0, agree_q1, agree_q2, agree_q3) = res;
                 Console.WriteLine(
                     $"Init: {initialState, -4}    0sq0 = {num_zeros_q0, -4}    0sq1 = {num_zeros_q1, -4}    0sq2={num_zeros_q2, -4}    0sq3={num_zeros_q3, -4}    1sq0 = {num_ones_q0, -4}    1sq1 = {num_ones_q1, -4}    1sq2={num_ones_q2, -4}    1sq0 = {num_ones_q3, -4}    agree0 = {agree_q0, -4}    agree1 = {agree_q1, -4}    agree2={agree_q2, -4}    agree3 = {agree_q3, -4}"
                             );
-                
             }
         }
         

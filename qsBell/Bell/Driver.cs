@@ -17,7 +17,7 @@ namespace qsBell.Bell
             
             Experiments.ExecGrover3Qubit(Result.One);
 
-            // Experiments.ExecGrover4Qubit(Result.One);
+            Experiments.ExecGrover4Qubit(Result.One);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();
