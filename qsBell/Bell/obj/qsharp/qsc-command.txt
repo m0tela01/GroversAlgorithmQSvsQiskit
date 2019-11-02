@@ -1,0 +1,13 @@
+:: files ::
+Bell.qs
+:: qsim ::
+:: references ::
+/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll
+/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll
+/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll
+/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll
+/home/tela/.nuget/packages/microsoft.quantum.standard/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Standard.dll
+/usr/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll
+:: command ::
+dotnet "/home/tela/.nuget/packages/microsoft.quantum.development.kit/0.9.1909.3002/build/../tools/qsc/Microsoft.Quantum.CsharpGeneration.App.dll"  --input "Bell.qs" --references "/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Intrinsic.dll" "/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.Common.dll" "/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.Core.dll" "/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "/home/tela/.nuget/packages/microsoft.quantum.simulators/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Simulators.dll" "/home/tela/.nuget/packages/microsoft.quantum.standard/0.9.1909.3002/lib/netstandard2.0/Microsoft.Quantum.Standard.dll" "/usr/share/dotnet/sdk/NuGetFallbackFolder/newtonsoft.json/11.0.2/lib/netstandard2.0/Newtonsoft.Json.dll" --output obj/qsharp/src/

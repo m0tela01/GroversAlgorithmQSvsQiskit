@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj": {}
+  },
+  "projects": {
+    "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj",
+        "projectName": "Bell",
+        "projectPath": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj",
+        "packagesPath": "/home/tela/.nuget/packages/",
+        "outputPath": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/tela/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Quantum.Development.Kit": {
+              "target": "Package",
+              "version": "[0.9.1909.3002, )"
+            },
+            "Microsoft.Quantum.Standard": {
+              "target": "Package",
+              "version": "[0.9.1909.3002, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

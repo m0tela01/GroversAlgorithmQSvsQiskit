@@ -1,0 +1,20 @@
+########################
+Grover 2 Qubits
+########################
+######## 0,0
+Init:Zero 0sq0=0    0sq1=0     1sq0=3000    1sq1=3000    agree0=3000    agree1=3000
+Init:Zero 0sq0=0    0sq1=0     1sq0=3000    1sq1=3000    agree0=3000    agree1=3000
+
+######## 1,1
+PS C:\Users\Telahun\Documents\School\CECS590\qsBell\Bell> dotnet run
+Init:One  0sq0=3000 0sq1=3000  1sq0=0       1sq1=0       agree0=3000    agree1=3000
+Init:One  0sq0=3000 0sq1=3000  1sq0=0       1sq1=0       agree0=3000    agree1=3000
+
+########################
+Grover 3 Qubits
+########################
+######## 0,0,0
+
+######## 1,1,1
+Init:One     0sq0=602     0sq1=1584    0sq2=1860    1sq0=2398    1sq1=1416    1sq2=1140    agree0=3000    agree1=1624    agree2=1144
+Init:One     0sq0=576     0sq1=1623    0sq2=1868    1sq0=2424    1sq1=1377    1sq2=1132    agree0=3000    agree1=1591    agree2=1112
