@@ -1,5 +1,6 @@
 ﻿
-namespace qsBell.Bell {
+namespace qsBell.Bell 
+{
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
 
