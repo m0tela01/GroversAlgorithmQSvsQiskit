@@ -10,6 +10,7 @@ namespace qsBell.Bell
     {
         static void Main(string[] args)
         {
+            //Experiments.ExecPauliRZ(Result.Zero, 8192);
 
             // Experiments.ExecTestBellStates(Result.One);
 
@@ -17,9 +18,9 @@ namespace qsBell.Bell
             
             // Experiments.ExecGrover3Qubit(Result.One);
 
-            // Experiments.ExecGrover4Qubit(Result.One);
+            Experiments.ExecGrover4Qubit(Result.One);
 
-            Experiments.ExecMicrosoftGrover(15);
+            //Experiments.ExecMicrosoftGrover(5);
 
             Console.WriteLine("Press any key to continue...");
             Console.ReadKey();

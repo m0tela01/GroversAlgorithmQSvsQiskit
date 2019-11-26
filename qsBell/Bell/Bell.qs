@@ -3,11 +3,49 @@ namespace qsBell.Bell
 {
     open Microsoft.Quantum.Intrinsic;
     open Microsoft.Quantum.Canon;
+    open Microsoft.Quantum.Math;
+    open Microsoft.Quantum.Convert;
 
     operation Set(desired : Result, q1 : Qubit) : Unit {
         if (desired != M(q1)) {
             X(q1);
         }
+    }
+    
+    operation RPiOver8 (q: Qubit) : Unit is Adj+Ctl {
+        R(PauliZ, PI() / 8.0, q);
+    }
+
+    operation TestPaulRZ(count : Int, initial : Result) : (Int, Int)
+    {
+        mutable numOnes = 0;
+        
+        let theta = PI() / 8.0;
+        using (q0 = Qubit())
+        {
+            for (test in 1..count) 
+            {
+                Set(initial, q0);
+                H(q0);
+
+                // RPiOver8(q0);
+                R(PauliZ, theta, q0);
+                R(PauliZ, theta, q0);
+
+                Adjoint T(q0);
+
+
+                let res  = M(q0);
+                // Count the number of ones we saw:
+                if (res == One) 
+                {
+                    set numOnes += 1;
+                }
+                // reset qubits before finishing
+                Set(Zero, q0);
+            }
+        }
+        return (count-numOnes, numOnes);
     }
     
     operation TestBellState(count : Int, initial : Result) : (Int, Int, Int) 
@@ -240,6 +278,8 @@ namespace qsBell.Bell
         mutable agree2 = 0;
         mutable agree3 = 0;
 
+        let theta = PI() / 8.0;
+
         using ((q0, q1, q2, q3) = (Qubit(), Qubit(), Qubit(), Qubit())) 
         {
             for (test in 1..count) 
@@ -336,9 +376,12 @@ namespace qsBell.Bell
                 CX(q1,q0);
                 CX(q2,q1);
                 // qc.u1(pi/8, q[2])
+                R(PauliZ, theta, q1);
                 CX(q2,q1);
                 // qc.u1(-pi/8, q[2])
+                Adjoint R(PauliZ, theta, q1);
                 // qc.u1(-pi/8,q[3])
+                Adjoint R(PauliZ, theta, q2);
                 ////////////////////
                 H(q2);
                 H(q3);
@@ -348,14 +391,20 @@ namespace qsBell.Bell
                 ////////////////////
                 CX(q2,q1);
                 // qc.u1(-pi/8,q[2])
+                Adjoint R(PauliZ, theta, q1);
                 CX(q2,q1);
                 // qc.u1(pi/8,q[2])
+                R(PauliZ, theta, q1);
                 // qc.u1(pi/8,q[3])
+                R(PauliZ, theta, q2);
                 CX(q3,q1);
                 // qc.u1(-pi/8,q[2])
+                Adjoint R(PauliZ, theta, q1);
                 CX(q3,q1);
                 // qc.u1(pi/8,q[2])
+                R(PauliZ, theta, q1);
                 // qc.u1(-pi/8,q[4])                
+                Adjoint R(PauliZ, theta, q3);
                 ////////////////////
                 CX(q1,q0);
                 H(q0);
@@ -460,9 +509,12 @@ namespace qsBell.Bell
                 CX(q1,q0);
                 CX(q2,q1);
                 // qc.u1(pi/8, q[2])
+                R(PauliZ, theta, q1);
                 CX(q2,q1);
                 // qc.u1(-pi/8, q[2])
+                Adjoint R(PauliZ, theta, q1);
                 // qc.u1(-pi/8,q[3])
+                Adjoint R(PauliZ, theta, q2);
                 ////////////////////
                 H(q2);
                 H(q3);
@@ -472,14 +524,20 @@ namespace qsBell.Bell
                 ////////////////////
                 CX(q2,q1);
                 // qc.u1(-pi/8,q[2])
+                Adjoint R(PauliZ, theta, q1);
                 CX(q2,q1);
                 // qc.u1(pi/8,q[2])
+                R(PauliZ, theta, q1);
                 // qc.u1(pi/8,q[3])
+                R(PauliZ, theta, q2);
                 CX(q3,q1);
                 // qc.u1(-pi/8,q[2])
+                Adjoint R(PauliZ, theta, q1);
                 CX(q3,q1);
                 // qc.u1(pi/8,q[2])
+                R(PauliZ, theta, q1);
                 // qc.u1(-pi/8,q[4])                
+                Adjoint R(PauliZ, theta, q3);
                 ////////////////////
                 CX(q1,q0);
                 H(q0);

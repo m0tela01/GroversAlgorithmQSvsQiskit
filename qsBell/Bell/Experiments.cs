@@ -12,6 +12,22 @@ namespace qsBell.Bell
         {
             Console.WriteLine(sep + "\n" + method + "\n" + sep);
         }
+
+        /// Test 1 Qubit R gate as U gate in Q# vs qiskit set initial states of all qubits to Result.Zero or Result.One, default shots = 1024
+        public static void ExecPauliRZ(Result initialState, int shots = 1024)
+        {
+            Print("Test Pauli Z: 1 Qubit");
+            using (var qsim = new QuantumSimulator())
+            {
+                var res = TestPaulRZ.Run(qsim, shots, initialState).Result;
+                var (num_zeros_q0, num_ones_q0) = res;
+                Console.WriteLine(
+                    $"Init: {initialState, -4} 0sq0 = {num_zeros_q0, -4} 1sq0 = {num_ones_q0, -4}  1sq0"
+                );                
+                Console.WriteLine();
+            }
+        }
+
         /// Grover 2 Qubit set initial states of all qubits to Result.Zero or Result.One, default shots = 1024
         public static void ExecGrover2Qubit(Result initialState, int shots = 1024)
         {
