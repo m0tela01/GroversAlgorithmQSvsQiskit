@@ -994,28 +994,30 @@
     ]
   },
   "packageFolders": {
-    "/home/tela/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Telahun\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj",
+      "projectUniqueName": "c:\\Users\\Telahun\\Documents\\School\\Q\\GroversAlgorithmQSvsQiskit\\Qsharp\\qsBell\\Bell\\Bell.csproj",
       "projectName": "Bell",
-      "projectPath": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.csproj",
-      "packagesPath": "/home/tela/.nuget/packages/",
-      "outputPath": "/home/tela/Documents/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/obj/",
+      "projectPath": "c:\\Users\\Telahun\\Documents\\School\\Q\\GroversAlgorithmQSvsQiskit\\Qsharp\\qsBell\\Bell\\Bell.csproj",
+      "packagesPath": "C:\\Users\\Telahun\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\Telahun\\Documents\\School\\Q\\GroversAlgorithmQSvsQiskit\\Qsharp\\qsBell\\Bell\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/tela/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Telahun\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

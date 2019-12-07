@@ -61,7 +61,7 @@ namespace qsBell.Bell
     
     operation Grover2Qubit(count : Int, initial : Result) : Int[] 
     {
-        mutable output = new Int[16];
+        mutable output = new Int[4];
         let expectedOutputValues = CreateGrover2OutputStrings();
         using ((q0, q1) = (Qubit(), Qubit())) 
         {
@@ -112,7 +112,7 @@ namespace qsBell.Bell
 
     operation Grover3Qubit(count : Int, initial : Result) : Int[]
     {
-        mutable output = new Int[16];
+        mutable output = new Int[8];
         let expectedOutputValues = CreateGrover3OutputStrings();
 
         using ((q0, q1, q2) = (Qubit(), Qubit(), Qubit())) 
@@ -120,8 +120,8 @@ namespace qsBell.Bell
             for (test in 1..count) 
             {
                 Set(initial, q0);
-                Set(initial, q0);
-                Set(initial, q0);
+                Set(initial, q1);
+                Set(initial, q2);
                 // Set(initial, q0);
                 // Set(initial, q1);
                 // Set(initial, q2);
@@ -140,6 +140,8 @@ namespace qsBell.Bell
                 CX(q2, q0);
                 T(q0);
                 T(q1);
+                CX(q2, q1);
+                Adjoint T(q1);
                 CX(q2, q1);
                 T(q2);
                 ////////////////////
@@ -161,7 +163,9 @@ namespace qsBell.Bell
                 T(q0);
                 T(q1);
                 CX(q2, q1);
-                T(q2);                
+                Adjoint T(q1);
+                CX(q2, q1);
+                T(q2);            
                 ////////////////////
                 X(q0);
                 X(q1);

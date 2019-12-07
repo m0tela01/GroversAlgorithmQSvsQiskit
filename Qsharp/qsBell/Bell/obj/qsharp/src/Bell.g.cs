@@ -4,29 +4,29 @@ using Microsoft.Quantum.Core;
 using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover2OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover2OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover3OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":19,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover3OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":19,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover4OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover4OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":55,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":55,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover2Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover2Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover3Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover3Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover4Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":207,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover4Qubit\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":207,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":531,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":22}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Qubit\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" /////////////////////\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":531,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":531,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsAdjoint specialization for qsBell.Bell.RPiOver8\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":531,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsControlled specialization for qsBell.Bell.RPiOver8\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":531,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for qsBell.Bell.RPiOver8\"]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestPaulRZ\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":27}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":42}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestPaulRZ\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":567,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":567,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover2OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover2OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":9,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover3OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":19,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover3OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":19,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover4OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"CreateGrover4OutputStrings\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":33,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":37}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":55,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"desired\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":15},\"Item2\":{\"Line\":1,\"Column\":22}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q1\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":33},\"Item2\":{\"Line\":1,\"Column\":35}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Result\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Set\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":55,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":14}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover2Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover2Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":61,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover3Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover3Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":112,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover4Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":211,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":24},\"Item2\":{\"Line\":1,\"Column\":29}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"ArrayType\",\"Fields\":[{\"Case\":\"Int\"}]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"Grover4Qubit\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":211,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":23}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"q\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":22}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Qubit\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" /////////////////////\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsAdjoint specialization for qsBell.Bell.RPiOver8\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlled\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsControlled specialization for qsBell.Bell.RPiOver8\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsControlledAdjoint\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"Union\",\"Fields\":[{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Adjointable\"}]},{\"Case\":\"SimpleSet\",\"Fields\":[{\"Case\":\"Controllable\"}]}]},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"RPiOver8\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":535,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":41},\"Item2\":{\"Line\":1,\"Column\":48}},\"Documentation\":[\"automatically generated QsControlledAdjoint specialization for qsBell.Bell.RPiOver8\"]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestPaulRZ\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":539,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":22},\"Item2\":{\"Line\":1,\"Column\":27}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":35},\"Item2\":{\"Line\":1,\"Column\":42}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestPaulRZ\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":539,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":571,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"count\"]},\"Type\":{\"Case\":\"Int\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":25},\"Item2\":{\"Line\":1,\"Column\":30}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"initial\"]},\"Type\":{\"Case\":\"Result\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":38},\"Item2\":{\"Line\":1,\"Column\":45}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Result\"}]]},\"ReturnType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Int\"},{\"Case\":\"Int\"},{\"Case\":\"Int\"}]]},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"qsBell.Bell\",\"Name\":\"TestBellState\"},\"Attributes\":[],\"SourceFile\":\"C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs\",\"Position\":{\"Item1\":571,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
 #line hidden
 namespace qsBell.Bell
 {
@@ -46,17 +46,17 @@ namespace qsBell.Bell
 
         public override Func<QVoid, IQArray<Int64>> Body => (__in__) =>
         {
-#line 12 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 12 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var output = QArray<Int64>.Create(4L);
-#line 13 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 13 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(0L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero)));
-#line 14 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 14 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(1L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One)));
-#line 15 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 15 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(2L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero)));
-#line 16 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 16 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(3L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One)));
-#line 17 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 17 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -90,25 +90,25 @@ namespace qsBell.Bell
 
         public override Func<QVoid, IQArray<Int64>> Body => (__in__) =>
         {
-#line 22 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 22 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var output = QArray<Int64>.Create(8L);
-#line 23 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 23 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(0L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.Zero)));
-#line 24 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 24 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(1L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.One)));
-#line 25 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 25 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(2L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.Zero)));
-#line 26 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 26 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(3L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.One)));
-#line 27 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 27 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(4L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.Zero)));
-#line 28 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 28 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(5L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.One)));
-#line 29 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 29 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(6L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.Zero)));
-#line 30 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 30 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(7L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.One)));
-#line 31 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 31 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -142,41 +142,41 @@ namespace qsBell.Bell
 
         public override Func<QVoid, IQArray<Int64>> Body => (__in__) =>
         {
-#line 36 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 36 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var output = QArray<Int64>.Create(16L);
-#line 37 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 37 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(0L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.Zero, Result.Zero)));
-#line 38 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 38 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(1L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.Zero, Result.One)));
-#line 39 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 39 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(2L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.One, Result.Zero)));
-#line 40 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 40 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(3L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.Zero, Result.One, Result.One)));
-#line 41 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 41 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(4L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.Zero, Result.Zero)));
-#line 42 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 42 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(5L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.Zero, Result.One)));
-#line 43 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 43 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(6L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.One, Result.Zero)));
-#line 44 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 44 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(7L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.Zero, Result.One, Result.One, Result.One)));
-#line 45 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 45 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(8L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.Zero, Result.Zero)));
-#line 46 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 46 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(9L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.Zero, Result.One)));
-#line 47 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 47 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(10L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.One, Result.Zero)));
-#line 48 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 48 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(11L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.Zero, Result.One, Result.One)));
-#line 49 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 49 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(12L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.Zero, Result.Zero)));
-#line 50 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 50 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(13L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.Zero, Result.One)));
-#line 51 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 51 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(14L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.One, Result.Zero)));
-#line 52 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 52 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             output.Modify(15L, MicrosoftQuantumConvertResultArrayAsInt.Apply(new QArray<Result>(Result.One, Result.One, Result.One, Result.One)));
-#line 53 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 53 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -232,10 +232,10 @@ namespace qsBell.Bell
         public override Func<(Result,Qubit), QVoid> Body => (__in__) =>
         {
             var (desired,q1) = __in__;
-#line 57 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 57 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             if ((desired != MicrosoftQuantumIntrinsicM.Apply(q1)))
             {
-#line 58 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 58 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 MicrosoftQuantumIntrinsicX.Apply(q1);
             }
 
@@ -332,79 +332,79 @@ namespace qsBell.Bell
         public override Func<(Int64,Result), IQArray<Int64>> Body => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 64 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
-            var output = QArray<Int64>.Create(16L);
-#line 65 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 64 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+            var output = QArray<Int64>.Create(4L);
+#line 65 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var expectedOutputValues = (IQArray<Int64>)CreateGrover2OutputStrings.Apply(QVoid.Instance);
 #line hidden
             {
-#line 66 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 66 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 var (q0,q1) = (Allocate.Apply(), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 68 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 68 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     foreach (var test in new Range(1L, count))
 #line hidden
                     {
-#line 70 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 70 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q0));
-#line 71 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 71 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q1));
-#line 74 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 74 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 75 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 75 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 76 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 76 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCZ.Apply((q1, q0));
-#line 77 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 77 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 78 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 78 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 80 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 80 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 81 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 81 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 82 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 82 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCZ.Apply((q1, q0));
-#line 83 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 83 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 84 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 84 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 85 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 85 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 86 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 86 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 89 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 89 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res = MicrosoftQuantumIntrinsicM.Apply(q0);
-#line 90 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 90 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res1 = MicrosoftQuantumIntrinsicM.Apply(q1);
-#line 92 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 92 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var outputRes = (IQArray<Result>)new QArray<Result>(res1, res);
-#line 93 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 93 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var counter = 0L;
-#line 94 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 94 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         foreach (var outcome in expectedOutputValues)
 #line hidden
                         {
-#line 96 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 96 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             if ((outcome == MicrosoftQuantumConvertResultArrayAsInt.Apply(outputRes)))
                             {
-#line 98 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 98 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 var currentCountOfValueInOutput = output[counter];
-#line 99 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 99 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 output.Modify(counter, (currentCountOfValueInOutput + 1L));
                             }
 
-#line 101 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 101 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             counter = (counter + 1L);
                         }
                     }
 
-#line 105 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 105 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q0));
-#line 106 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 106 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q1));
                 }
 #line hidden
@@ -428,7 +428,7 @@ namespace qsBell.Bell
                 }
             }
 
-#line 110 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 110 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -534,135 +534,143 @@ namespace qsBell.Bell
         public override Func<(Int64,Result), IQArray<Int64>> Body => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 115 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
-            var output = QArray<Int64>.Create(16L);
-#line 116 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 115 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+            var output = QArray<Int64>.Create(8L);
+#line 116 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var expectedOutputValues = (IQArray<Int64>)CreateGrover3OutputStrings.Apply(QVoid.Instance);
 #line hidden
             {
-#line 118 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 118 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 var (q0,q1,q2) = (Allocate.Apply(), Allocate.Apply(), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 120 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 120 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     foreach (var test in new Range(1L, count))
 #line hidden
                     {
-#line 122 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 122 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q0));
-#line 123 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
-                        Set.Apply((initial, q0));
-#line 124 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
-                        Set.Apply((initial, q0));
-#line 130 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 123 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        Set.Apply((initial, q1));
+#line 124 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        Set.Apply((initial, q2));
+#line 130 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 131 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 131 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 132 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 132 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 134 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 134 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 135 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 135 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 136 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 136 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q0));
-#line 137 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 137 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 138 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 138 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 139 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 139 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 140 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 140 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q0));
-#line 141 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 141 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 142 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 142 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 143 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 143 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 144 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 144 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
+#line 145 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        MicrosoftQuantumCanonCX.Apply((q2, q1));
+#line 146 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q2);
-#line 146 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 148 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 147 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 149 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 148 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 150 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 150 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 152 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 151 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 153 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 152 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 154 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q2);
-#line 154 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 156 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 155 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 157 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 156 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 158 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q0));
-#line 157 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 159 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 158 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 160 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 159 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 161 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 160 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 162 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q0));
-#line 161 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 163 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 162 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 164 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 163 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 165 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 164 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 166 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
+#line 167 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
+                        MicrosoftQuantumCanonCX.Apply((q2, q1));
+#line 168 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q2);
-#line 166 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 170 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 167 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 171 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 168 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 172 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q2);
-#line 170 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 174 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 171 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 175 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 172 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 176 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 182 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 186 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res = MicrosoftQuantumIntrinsicM.Apply(q0);
-#line 183 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 187 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res1 = MicrosoftQuantumIntrinsicM.Apply(q1);
-#line 184 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 188 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res2 = MicrosoftQuantumIntrinsicM.Apply(q2);
-#line 186 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 190 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var outputRes = (IQArray<Result>)new QArray<Result>(res2, res1, res);
-#line 187 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 191 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var counter = 0L;
-#line 188 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 192 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         foreach (var outcome in expectedOutputValues)
 #line hidden
                         {
-#line 190 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 194 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             if ((outcome == MicrosoftQuantumConvertResultArrayAsInt.Apply(outputRes)))
                             {
-#line 192 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 196 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 var currentCountOfValueInOutput = output[counter];
-#line 193 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 197 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 output.Modify(counter, (currentCountOfValueInOutput + 1L));
                             }
 
-#line 195 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 199 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             counter = (counter + 1L);
                         }
                     }
 
-#line 199 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 203 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q0));
-#line 200 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 204 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q1));
-#line 201 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 205 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q2));
                 }
 #line hidden
@@ -688,7 +696,7 @@ namespace qsBell.Bell
                 }
             }
 
-#line 205 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 209 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -813,497 +821,497 @@ namespace qsBell.Bell
         public override Func<(Int64,Result), IQArray<Int64>> Body => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 210 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 214 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var output = QArray<Int64>.Create(16L);
-#line 211 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 215 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var expectedOutputValues = (IQArray<Int64>)CreateGrover4OutputStrings.Apply(QVoid.Instance);
-#line 212 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 216 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var theta = (MicrosoftQuantumMathPI.Apply(QVoid.Instance) / 8D);
 #line hidden
             {
-#line 214 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 218 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 var (q0,q1,q2,q3) = (Allocate.Apply(), Allocate.Apply(), Allocate.Apply(), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 216 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 220 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     foreach (var test in new Range(1L, count))
 #line hidden
                     {
-#line 218 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 222 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q0));
-#line 219 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 223 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q1));
-#line 220 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 224 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q2));
-#line 221 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 225 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q3));
-#line 224 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 228 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 225 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 229 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 226 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 230 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 227 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 231 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 229 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 233 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 230 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 234 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 231 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 235 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 232 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 236 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 233 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 237 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 234 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 238 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 235 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 239 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 236 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 240 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 238 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 242 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 239 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 243 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 240 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 244 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 242 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 246 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 243 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 247 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 244 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 248 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 245 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 249 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 246 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 250 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 247 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 251 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 249 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 253 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 250 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 254 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 251 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 255 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 252 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 256 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 253 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 257 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 254 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 258 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicS.Apply(q2);
-#line 255 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 259 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q3);
-#line 257 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 261 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 258 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 262 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 259 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 263 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 260 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 264 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 261 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 265 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 262 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 266 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 263 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 267 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 264 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 268 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 265 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 269 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 266 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 270 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 267 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 271 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 268 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 272 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 269 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 273 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 270 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 274 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 271 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 275 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 272 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 276 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 274 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 278 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 275 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 279 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 276 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 280 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 277 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 281 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 278 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 282 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 279 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 283 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 281 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 285 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 282 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 286 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 283 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 287 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 284 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 288 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 285 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 289 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 286 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 290 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicS.Apply(q2);
-#line 287 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 291 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q3);
-#line 289 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 293 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 290 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 294 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 291 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 295 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 292 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 296 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 293 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 297 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 295 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 299 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 296 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 300 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 297 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 301 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 298 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 302 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 299 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 303 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 301 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 305 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 302 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 306 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 303 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 307 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 304 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 308 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 305 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 309 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 306 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 310 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 307 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 311 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 308 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 312 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 310 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 314 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 311 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 315 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 313 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 317 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 315 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 319 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q2));
-#line 317 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 321 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 318 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 322 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 319 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 323 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 320 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 324 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 321 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 325 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 323 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 327 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 325 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 329 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 326 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 330 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 328 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 332 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 330 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 334 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q2));
-#line 331 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 335 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 333 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 337 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 334 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 338 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 336 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 340 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 338 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 342 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q3));
-#line 340 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 344 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 341 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 345 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 342 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 346 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 343 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 347 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 344 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 348 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 345 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 349 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 346 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 350 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 349 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 353 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 350 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 354 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 351 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 355 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 352 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 356 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 354 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 358 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 355 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 359 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 356 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 360 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q2);
-#line 357 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 361 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q3);
-#line 362 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 366 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 363 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 367 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 364 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 368 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 365 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 369 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 366 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 370 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 367 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 371 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 368 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 372 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 369 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 373 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 371 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 375 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 372 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 376 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 373 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 377 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 375 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 379 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 376 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 380 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 377 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 381 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 378 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 382 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 379 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 383 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 380 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 384 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 382 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 386 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 383 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 387 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 384 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 388 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 385 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 389 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 386 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 390 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 387 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 391 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicS.Apply(q2);
-#line 388 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 392 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q3);
-#line 390 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 394 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 391 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 395 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 392 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 396 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 393 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 397 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 394 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 398 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 395 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 399 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 396 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 400 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 397 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 401 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 398 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 402 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 399 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 403 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 400 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 404 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 401 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 405 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q1);
-#line 402 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 406 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 403 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 407 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 404 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 408 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 405 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 409 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 407 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 411 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 408 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 412 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 409 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 413 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 410 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 414 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 411 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 415 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 412 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 416 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q2);
-#line 414 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 418 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 415 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 419 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 416 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 420 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 417 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 421 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 418 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 422 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 419 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 423 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicS.Apply(q2);
-#line 420 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 424 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q3);
-#line 422 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 426 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 423 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 427 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 424 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 428 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 425 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 429 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q0);
-#line 426 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 430 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Apply(q1);
-#line 428 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 432 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 429 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 433 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 430 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 434 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 431 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 435 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 432 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 436 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 434 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 438 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 435 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 439 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 436 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 440 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 437 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 441 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 438 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 442 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 439 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 443 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 440 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 444 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 441 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 445 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 443 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 447 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 444 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 448 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 446 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 450 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 448 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 452 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q2));
-#line 450 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 454 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 451 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 455 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 452 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 456 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q3));
-#line 453 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 457 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 454 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 458 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 456 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 460 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 458 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 462 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 459 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 463 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q2, q1));
-#line 461 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 465 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 463 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 467 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q2));
-#line 464 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 468 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 466 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 470 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q1));
-#line 467 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 471 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q3, q1));
-#line 469 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 473 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q1));
-#line 471 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 475 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Adjoint.Apply((Pauli.PauliZ, theta, q3));
-#line 473 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 477 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 474 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 478 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 475 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 479 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 476 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 480 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 477 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 481 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 478 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 482 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 479 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 483 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumCanonCX.Apply((q1, q0));
-#line 481 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 485 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q0);
-#line 482 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 486 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q1);
-#line 483 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 487 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q2);
-#line 484 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 488 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicX.Apply(q3);
-#line 486 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 490 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 487 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 491 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q1);
-#line 488 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 492 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q2);
-#line 489 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 493 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q3);
-#line 502 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 506 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res = MicrosoftQuantumIntrinsicM.Apply(q0);
-#line 503 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 507 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res1 = MicrosoftQuantumIntrinsicM.Apply(q1);
-#line 504 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 508 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res2 = MicrosoftQuantumIntrinsicM.Apply(q2);
-#line 505 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 509 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res3 = MicrosoftQuantumIntrinsicM.Apply(q3);
-#line 507 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 511 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var outputRes = (IQArray<Result>)new QArray<Result>(res3, res2, res1, res);
-#line 508 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 512 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var counter = 0L;
-#line 509 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 513 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         foreach (var outcome in expectedOutputValues)
 #line hidden
                         {
-#line 511 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 515 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             if ((outcome == MicrosoftQuantumConvertResultArrayAsInt.Apply(outputRes)))
                             {
-#line 513 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 517 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 var currentCountOfValueInOutput = output[counter];
-#line 514 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 518 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                                 output.Modify(counter, (currentCountOfValueInOutput + 1L));
                             }
 
-#line 516 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 520 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             counter = (counter + 1L);
                         }
                     }
 
-#line 521 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 525 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q0));
-#line 522 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 526 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q1));
-#line 523 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 527 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q2));
-#line 524 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 528 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q3));
                 }
 #line hidden
@@ -1331,7 +1339,7 @@ namespace qsBell.Bell
                 }
             }
 
-#line 528 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 532 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return output;
         }
 
@@ -1384,7 +1392,7 @@ namespace qsBell.Bell
         public override Func<Qubit, QVoid> Body => (__in__) =>
         {
             var q = __in__;
-#line 533 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 537 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, (MicrosoftQuantumMathPI.Apply(QVoid.Instance) / 8D), q));
 #line hidden
             return QVoid.Instance;
@@ -1512,42 +1520,42 @@ namespace qsBell.Bell
         public override Func<(Int64,Result), (Int64,Int64)> Body => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 538 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 542 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var numOnes = 0L;
-#line 540 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 544 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var theta = (MicrosoftQuantumMathPI.Apply(QVoid.Instance) / 8D);
 #line hidden
             {
-#line 541 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 545 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 var q0 = Allocate.Apply();
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 543 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 547 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     foreach (var test in new Range(1L, count))
 #line hidden
                     {
-#line 545 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 549 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q0));
-#line 546 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 550 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 549 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 553 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q0));
-#line 550 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 554 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicR.Apply((Pauli.PauliZ, theta, q0));
-#line 552 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 556 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicT.Adjoint.Apply(q0);
-#line 555 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 559 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res = MicrosoftQuantumIntrinsicM.Apply(q0);
-#line 557 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 561 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         if ((res == Result.One))
                         {
-#line 559 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 563 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             numOnes = (numOnes + 1L);
                         }
 
-#line 562 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 566 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((Result.Zero, q0));
                     }
                 }
@@ -1570,7 +1578,7 @@ namespace qsBell.Bell
                 }
             }
 
-#line 565 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 569 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return ((count - numOnes), numOnes);
         }
 
@@ -1660,50 +1668,50 @@ namespace qsBell.Bell
         public override Func<(Int64,Result), (Int64,Int64,Int64)> Body => (__in__) =>
         {
             var (count,initial) = __in__;
-#line 570 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 574 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var numOnes = 0L;
-#line 571 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 575 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             var agree = 0L;
 #line hidden
             {
-#line 572 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 576 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                 var (q0,q1) = (Allocate.Apply(), Allocate.Apply());
 #line hidden
                 Exception __arg1__ = null;
                 try
                 {
-#line 574 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 578 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     foreach (var test in new Range(1L, count))
 #line hidden
                     {
-#line 576 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 580 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((initial, q0));
-#line 577 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 581 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         Set.Apply((Result.Zero, q1));
-#line 580 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 584 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicH.Apply(q0);
-#line 581 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 585 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         MicrosoftQuantumIntrinsicCNOT.Apply((q0, q1));
-#line 583 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 587 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         var res = MicrosoftQuantumIntrinsicM.Apply(q0);
-#line 585 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 589 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         if ((MicrosoftQuantumIntrinsicM.Apply(q1) == res))
                         {
-#line 587 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 591 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             agree = (agree + 1L);
                         }
 
-#line 591 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 595 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                         if ((res == Result.One))
                         {
-#line 593 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 597 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                             numOnes = (numOnes + 1L);
                         }
                     }
 
-#line 597 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 601 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q0));
-#line 598 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 602 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
                     Set.Apply((Result.Zero, q1));
                 }
 #line hidden
@@ -1727,7 +1735,7 @@ namespace qsBell.Bell
                 }
             }
 
-#line 602 "c:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/qsBell/Bell/Bell.qs"
+#line 606 "C:/Users/Telahun/Documents/School/Q/GroversAlgorithmQSvsQiskit/Qsharp/qsBell/Bell/Bell.qs"
             return ((count - numOnes), numOnes, agree);
         }
 
