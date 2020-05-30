@@ -1,5 +1,5 @@
-# GroversAlgorithmQSvsQiskit - Quantum
-Understanding the different results from executing Grover's Search Algorithm in Microsoft Q# and Qiskit
+# GroversAlgorithmQSvsQiskit
+Quantum Computing Introduction - Understanding the different results from executing Grover's Search Algorithm in Microsoft Q# and Qiskit
 
 Final for Computer Engineering and Computer Science 590 - Introduction to Quantum Computing
 
